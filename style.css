@@ -1,0 +1,13 @@
+.fullpage {
+    display: flex;
+    background-color: rgb(216, 216, 216);
+}
+
+img {
+    height: 100vh;
+}
+
+.form-div {
+    background-color: white;
+    padding: 50px 20px;
+}
