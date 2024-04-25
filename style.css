@@ -1,6 +1,6 @@
 .fullpage {
     display: flex;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(235, 233, 233);
     height: 100vh;
 }
 
@@ -12,7 +12,8 @@ img {
 
 .form-div {
     background-color: white;
-    padding: 50px 20px;
+    padding: 20px 20px;
+    margin-top: 50px;
 }
 
 .left {
@@ -21,4 +22,33 @@ img {
 
 .right {
     flex-basis: 60%;
+    align-self: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+form div {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+form div div {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    border: none;
+    border: 1px solid rgb(175, 174, 174);
+    border-radius: 3px;
+    padding: 3px 0px;
 }
